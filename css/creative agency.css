@@ -1,0 +1,205 @@
+*{
+    font-family: "Lato";
+}
+
+.creative-agency-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 0% 100%), url(../images/agency-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 860px;
+}
+h1{
+    color: white;
+    font-weight: 900;
+    /* font-size: 100px; */
+    font-size: calc(1.625rem + 4.5vw);
+    line-height: 1.2em;
+    margin: 0px 0px 18px;
+}
+.creative-agency-bg p{
+    color: white;
+    /* font-size: 28px; */
+    font-weight: 400;
+    line-height: 52.08px;
+    margin: 10px 0px 20px
+}
+.creative-agency-bg button{
+    font-weight: 900;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.3rem;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    &:hover{
+        opacity: 0.9;
+    }
+}
+.creative-agency-bg .btn-primary{
+    &:hover{
+        color: black;
+        background-color: white;
+        opacity: 1;
+    }
+}
+.navbar .nav-item{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.86em;
+
+}
+.features p{
+    font-size: 17px;
+    color: #888888;
+    font-weight: 400;
+    line-height: 31.62px;
+}
+.our-work{
+    background-color: #f8f8f8;
+}
+.our-work p{
+    line-height: 40.5108px;
+}
+.our-work button{
+    &:hover{
+        background-color: #1b1b1b;
+    }
+}
+.carousel-indicators{
+    position: static;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: black;
+    opacity: 0.2;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(199, 43, 43);
+    margin-block: 1em;
+}
+.carousel-indicators [data-bs-target].active{
+    opacity: 0.8;
+    border: 1px solid rgb(199, 43, 43);
+}
+.testimonials{
+    background-color: #1b1b1b;
+}
+.testimonials [data-bs-target]{
+    background-color: white;
+    opacity: 0.8;
+}
+.testimonials [data-bs-target].active{
+    background-color: white;
+    opacity: 0.3;
+    border-color: #fff;
+}
+.testimonials p{
+    line-height: 50.22px;
+}
+.latest-news{
+    background-color: #f8f8f8;
+}
+.latest-news p{
+    line-height: 35.28px;
+    color: #686868;
+    margin: 0px 0px 15px;
+    font-weight: 400;
+}
+.latest-news a{
+    text-decoration: none;
+    color: #666;
+    &:hover i{
+        padding-inline: 15px;
+        color: #0461d5;
+    }
+    &:hover span{
+        color: #0461d5;
+    }
+}
+.latest-news a i{
+    padding-inline: 5px;
+    transition: all 0.2s;
+}
+.partners a{
+    opacity: 0.7;
+    transition: all 0.3s ease-out;
+    &:hover{
+        opacity: 1;
+    }
+}
+.contact-us a{
+    font-size: 13px;
+    line-height: 23.4px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}
+.footer-main{
+    background-color: #1b1b1b;
+}
+.pages{
+    list-style-type: none;
+    padding: 0;
+}
+.pages a{
+    color: #A9A9A9;
+    text-decoration: none;
+}
+.opening-hours{
+    list-style-type: none;
+    padding: 0;
+}
+.opening-hours li{
+    color: #797979;
+    text-decoration: none;
+}
+.footer-main p{
+    color: #797979;
+    font-size: 16px;
+    line-height: 33.48px;
+    font-weight: 400;
+    margin: 0;
+}
+.footer-main i{
+    color: white;
+    opacity: 0.5;
+}
+.footer-main a{
+    text-decoration: none;
+    color: #A9A9A9;
+    transition: all 0.2s;
+    &:hover{
+        color: #E0E0E0;
+    }
+}
+.footer-bottom{
+    background-color: #151515;
+}
+.footer-bottom p{
+    color: #797979;
+    margin: 0;
+}
+.footer-bottom .icons{
+    color: #fff;
+    background-color: black;
+    padding: 10px 12px;
+    border-radius: 50%;
+    opacity: 0.3;
+    transition: all 0.2s;
+    cursor: pointer;
+    &:hover{
+        opacity: 1;
+        background-color: #888888;
+    }
+}
+/* .navbar .btn-primary{
+    color: white;
+} */
